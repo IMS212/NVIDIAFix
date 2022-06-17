@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidiafix",
+  "version": "${version}",
+  "name": "Nvidia Fix",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "entrypoints": {
+    "mm:early_risers": [
+      "net.ims.nvidiafix.fabric.Pain"
+    ]
+  },
+  "license": "CC0",
+  "icon": "assets/examplemod/icon.png",
+  "environment": "*",
+  "mixins": [
+  ],
+  "depends": {
+  }
+}

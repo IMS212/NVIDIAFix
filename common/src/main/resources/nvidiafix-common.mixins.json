@@ -1,0 +1,17 @@
+{
+  "package": "net.ims.nvidiafix.mixin",
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "ShadersFramebufferMixin",
+    "ShadersFramebufferAccess",
+    "ShadersMixin",
+    "ShadersAccess"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

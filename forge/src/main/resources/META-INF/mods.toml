@@ -1,0 +1,21 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+#issueTrackerURL = ""
+license = "CC0"
+
+[[mods]]
+modId = "nvidiafix"
+version = "${version}"
+displayName = "Nvidia Fix"
+authors = "IMS"
+description = '''
+This fixes the issue with the Nvidia 516 driver on Optifine.
+'''
+#logoFile = ""
+
+[[dependencies.nvidiafix]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
